@@ -25,7 +25,7 @@ numpy, scipy, pandas, jupyter, matplotlib, pyshtools
     > 
 2. Download this package directly or run the command in the terminal to download this package: 
     > 
-    > `git clone git@github.com:libenke/FiberRheoModels.git`
+    > `git clone https://github.com/libenke/FiberRheoModels`
     > 
 3. Run command `Jupyter-notebook` in your terminal, and open the `.ipynb` files, enjoy it. Usage of jupyter could be found in https://jupyter.org/.
 4. The models were solved by: (a) object tensor approach (see examples in `.ipynb` files with prefix of `Demo_Tensor Method_`), and (b) spherical harmonics approach (see examples in `.ipynb` files with prefix of `Demo_SH Method_`).
