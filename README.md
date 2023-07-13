@@ -1,5 +1,5 @@
 # FiberRheoModels 
-Solve the rigid-short-fibers rheology constitutive models by two appoaches numerically:  
+Solve the rigid-short-fibers rheology constitutive models by two approaches numerically:  
 - **Spherical Harmonics** approach;
 - **Object Tensor** approach.
   
@@ -16,20 +16,24 @@ numpy, scipy, pandas, jupyter, matplotlib, pyshtools
 
 ## Usage:
 1. Make sure that Python3 and the dependencies have been installed. The dependencies could be installed by this command:
-    > 
-    > `python3 -m pip3 install numpy scipy pandas jupyter matplotlib pyshtools`
-    > 
-    If any problems in system  environment configurations, users could run this  package in my docker container:
-    > 
-    > `docker run -it -p8888:8888 libenke/base`
-    > 
-2. Download this package directly or run the command in the terminal to download this package: 
-    > 
-    > `git clone https://github.com/libenke/FiberRheoModels`
-    > 
-3. Run command `Jupyter-notebook` in your terminal, and open the `.ipynb` files, enjoy it. Usage of jupyter could be found in https://jupyter.org/.
-4. The models were solved by: (a) object tensor approach (see examples in `.ipynb` files with prefix of `Demo_Tensor Method_`), and (b) spherical harmonics approach (see examples in `.ipynb` files with prefix of `Demo_SH Method_`).
-5. Background of models and spherical harmonic methods were shown in the following sections.  
+   ```
+   python3 -m pip3 install numpy scipy pandas jupyter matplotlib pyshtools
+   ```
+   If there are any problems with system environment configurations, users could run this package in my Docker container:
+   ```
+   docker run -it -p8888:8888 libenke/base
+   ```
+3. Download this package directly or run the command in the terminal to download this package:
+   ```
+   git clone https://github.com/libenke/FiberRheoModels
+   ```
+5. Run command in your terminal:
+   ```
+   jupyter-notebook
+   ```
+   Then open the `.ipynb` files in the jupyter workspace, enjoy it. Usage of jupyter could be found in https://jupyter.org/.
+7. The models were solved by: (a) object tensor approach (see examples in `.ipynb` files with the prefix of `Demo_Tensor Method_`), and (b) spherical harmonics approach (see examples in `.ipynb` files with prefix of `Demo_SH Method_`).
+8. Background of models and spherical harmonic methods is shown in the following sections.  
 
 ## Background 1: Modeling  
 Readers are highly recommended to read our published paper ([Benke Li et. al. "Wall effect on the rheology of short-fiber suspensions under shear." *Journal of Rheology* **2021**, 65, 1169-1185.](https://doi.org/10.1122/8.0000292)), all the detail background and references could be found in the introduction section of this paper.
