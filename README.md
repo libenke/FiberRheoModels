@@ -156,7 +156,7 @@ where\quad D_{r0}&=\frac{3k_B T ln(a_r)}{\pi \eta_S L^3}
 \end{equation}
 ```
   
-- Confined Term (Proposed in our on-going studies, submitted to  _Journal of Rheology_). Here $\mathbf{D}^*$ is the confinement induced virtual compression flow, while $\epsilon$ and $\alpha$ is the tunning parameter.
+- Confined Term (Proposed in our on-going studies. Here $\mathbf{D}^*$ is the confinement induced virtual compression flow, while $\epsilon$ and $\alpha$ is the tunning parameter.
   
 ```math
 \begin{equation}\tag{1-8}
