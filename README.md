@@ -11,7 +11,7 @@ Author's ORCID: https://orcid.org/0000-0002-8830-0563
 
 Author's ResearchGate: https://www.researchgate.net/profile/Benke-Li
 
-> Please cite these two papers if you use this package:
+> Please cite theis paper if you use this package:
 >
 > Benke Li, Ying Guo, Paul Steeman, Markus Bulters, Wei Yu. "Wall effect on the rheology of short-fiber suspensions under shear." __Journal of Rheology__ 2021, 65 (6), 1169–1185.
 >
